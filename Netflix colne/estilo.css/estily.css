@@ -1,0 +1,127 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+     
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 450;
+
+}
+    header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,.50), rgba (0,0,0,.50)100%);
+    }
+
+ header .logo{
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 780;
+    margin-left: 21px;
+ }  
+ 
+ header nav a{
+     text-decoration: none;
+     color: #AAA;
+     margin-right: 10px;
+     font-weight: 400;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 13px;
+     font-weight: 600;
+
+ } 
+ header nav a:hover{
+   color: rgb(167, 43, 5);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+  
+  
+ }
+ .titulo {
+   margin-left: 25px;
+   margin-top: 12%;
+   font-style: italic;
+   font-size: 45px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.sinopse {
+  font-size: 12px;
+ text-align: left; 
+ margin-left: 12px; 
+ font-family: cursive;
+ margin-bottom: 0px;
+ margin-top: 0%;
+}
+.filme-em-cartaz {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url(../755323.jpg);
+
+
+  height: 400px;
+  background-size: cover;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+} 
+.filme-em-cartaz .sinopse{
+   margin-bottom: 14%; 
+}
+
+
+
+
+ .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-left: 12px;
+    padding: 9px 25px;
+ justify-content: space-between;
+ font-family: cursive;
+ font-size: 12px;
+ cursor: pointer;
+ transition: .5s ease all;
+ margin-bottom: 9px;
+ border-radius: 12px;
+}
+.botao:hover{
+    background-color: rgb(236, 37, 37);
+    color: black;
+}
+.botao i{
+   margin-right: 8px;
+
+}
+.filme-em-cartaz .container{
+   margin-left: 12px;
+   width: 60%;
+}
+.box-filme{
+   width: 100%;
+   height: 100%;
+   display: block;
+   margin-top: 23px;
+}
+
+.carrosel-filmes {
+   margin-top: 7px;
+}
